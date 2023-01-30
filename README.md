@@ -20,7 +20,7 @@ banco de dados que vai armazenar seus cursos, turmas e alunos.</p>
 # Diagrama do Banco de Dados
 
 <p align="center">
-![Diagrama](diagrama2.JPG)
+![Diagrama](diagrama2.PNG)
 </p>
 
 # Perguntas

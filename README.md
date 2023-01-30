@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://www.mysql.com/products/workbench/"> 🔗 MYSQL Workbench </a></h1>
 <p align="center">Banco de dados para acompanhamento de cursos, turmas e alunos da Resilia Educação.</p>
 
-# Tabela de conteúdos
+# :small_blue_diamond: Tabela de conteúdos
 
 <!--ts-->
 
@@ -10,20 +10,23 @@
 - [Perguntas](#perguntas)
 - [Tecnologias](#tecnologias)
 <!--te-->
+<br>
 
-# Contexto
+# :small_blue_diamond: Contexto
 
 <p> A Resilia está pensando em lançar um novo sistema de
 acompanhamento e para isso precisa de ajuda para modelar um
 banco de dados que vai armazenar seus cursos, turmas e alunos.</p>
+<br>
 
-# Diagrama do Banco de Dados
+# :small_blue_diamond: Diagrama do Banco de Dados
 
 <p align="center">
-![Diagrama](diagrama2.PNG)
+<img src="diagrama2.PNG"/>
 </p>
+<br>
 
-# Perguntas
+# :small_blue_diamond: Perguntas
 
 <p> 
 ⇨ Existem outras entidades além dessas três? <br>
@@ -35,8 +38,9 @@ banco de dados que vai armazenar seus cursos, turmas e alunos.</p>
 ⇨ Como essas entidades estão relacionadas? <br>
       - Elas estão relacionadas pelo ID.
 </p>
+<br>
 
-# Tecnologias
+# :small_blue_diamond: Tecnologias
 
 <p><a href="https://www.mysql.com/products/workbench/"> 🔗 MYSQL Workbench </a></p>
 <p><a href="https://dbdiagram.io/"> 🔗 DBDiagram </a></p>

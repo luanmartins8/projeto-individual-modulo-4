@@ -6,16 +6,16 @@ CREATE TABLE `curso` (
 
 CREATE TABLE `turma` (
   `id` int PRIMARY KEY,
-  `codigo` int(3),
-  `nome` varchar(100),
-  `id_curso` varchar(100)
+  `codigo` varchar(100),
+  `turno` varchar(100),
+  `id_curso` int(3)
 );
 
 CREATE TABLE `facilitador` (
   `id` int PRIMARY KEY,
   `nome` varchar(100),
   `cpf` bigint(11),
-  `telefone` bigtint(12),
+  `telefone` bigint(12),
   `email` varchar(100),
   `id_turma` int(3)
 );
@@ -41,7 +41,7 @@ CREATE TABLE `projetos` (
   `id_aluno` varchar(100)
 );
 
-ALTER TABLE `curso` ADD FOREIGN KEY (`id`) REFERENCES `turma` (`id_curso`);
+ALTER TABLE `turma` ADD FOREIGN KEY (`id_curso`) REFERENCES `curso` (`id`);
 
 ALTER TABLE `projetos` ADD FOREIGN KEY (`id_aluno`) REFERENCES `aluno` (`id`);
 

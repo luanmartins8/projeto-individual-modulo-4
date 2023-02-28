@@ -21,10 +21,8 @@ banco de dados que vai armazenar seus cursos, turmas e alunos.</p>
 
 # :small_blue_diamond: Diagrama do Banco de Dados
 
-<p align="center">
-<img src="diagrama2.PNG"/>
-</p>
-<br>
+![image](https://user-images.githubusercontent.com/112735349/221724747-10e22d8a-7b50-46db-ad11-0539b3ecc47e.png)
+
 
 # :small_blue_diamond: Perguntas
 
